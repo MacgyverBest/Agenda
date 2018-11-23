@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ToDo</title>
+  <script src="https://macgyverbest.github.io/Agenda/store.js"></script>
+  <script src="https://macgyverbest.github.io/Agenda/todo_e6.js"></script>
+  <script defer src="https://macgyverbest.github.io/Agenda/app.js"></script>
+  <link rel="stylesheet" href="https://macgyverbest.github.io/Agenda/app.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://macgyverbest.github.io/Agenda/lib/bulma.css">
+  <link rel="manifest" href="https://macgyverbest.github.io/Agenda/lib/manifest.json">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Agenda
+      </h1>
+     
+      <input type="text" id="itemValue" name="itemValue" size="15" class="input is-primary is-medium" placeholder='Nome'>
+      <input type="text" id="itemTelefone" name="itemTelefone" size="35" class="input is-primary is-medium" placeholder='Telefone'>
+      <input type="text" id="itemCpf" name="itemCpf" size="35" class="input is-primary is-medium" placeholder='Cpf'>
+    <input type="text" id="itemEndereco" name="itemEndereco" size="35" class="input is-primary is-medium" placeholder='Endereço'>
+    
+      <div id="lista"></div>
+      <br>
+      <div class="container" id="itensRenderizados">
+        <!-- Auto rendered itens -->
+      </div>
+    </div>
+  </section>
+    <script src="https://macgyverbest.github.io/Agenda/service-worker.js"> </script>
+</body>
+
+</html>
