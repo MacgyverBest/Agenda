@@ -1,0 +1,19 @@
+#lista ul {
+  list-style-type: disclosure-closed;
+  padding-left: 25px;
+}
+
+#lista span {
+  margin-right: 15px;
+}
+
+#lista ul button {
+  margin: 10px 5px;
+  padding: 0px;
+  background-color: none;
+  color: blue;
+}
+
+#lista img {
+  height: 15px;
+}
