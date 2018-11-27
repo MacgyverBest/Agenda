@@ -6,7 +6,7 @@ if ('serviceWorker' in navigator) {
     .then(function () { console.log('Service Worker Registered'); });
 }
 
-var cacheName = 'todo-app-v1';
+var cacheName = 'todo-ap';
 var filesToCache = [
   `${HOST}/imagens/edit.png`,
   `${HOST}/imagens/remove.png`,
