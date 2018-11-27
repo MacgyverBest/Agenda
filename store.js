@@ -2,7 +2,7 @@
 class Store {
 
   constructor() {
-    this.store = "todos";
+    this.store = "todos-v2";
   }
 
   _parse(stringParaConverterEmObjeto) {
