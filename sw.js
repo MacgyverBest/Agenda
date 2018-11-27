@@ -2,11 +2,11 @@ const HOST='https://macgyverbest.github.io/Agenda/'
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register(`${HOST}/service-worker.js`)
+    .register(`${HOST}/sw.js`)
     .then(function () { console.log('Service Worker Registered'); });
 }
 
-var cacheName = 'todo-app';
+var cacheName = 'todo-app-v1';
 var filesToCache = [
   `${HOST}/imagens/edit.png`,
   `${HOST}/imagens/remove.png`,
@@ -20,7 +20,7 @@ var filesToCache = [
   `${HOST}/index.html`,
   `${HOST}/store.js`,
   `${HOST}/todo_e6.js`,
-  `${HOST}/service-worker.js`,
+  `${HOST}/sw.js`,
   `${HOST}/manifest.json`
 ];
 
