@@ -1,4 +1,4 @@
-const HOST='https://macgyverbest.github.io/Agenda/'
+const HOST='https://macgyverbest.github.io/Agenda'
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
